@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tra cứu thần số học</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <form class="main-form">
+      <h1>Công cụ tra cứu thần số học</h1>
+      <input class="name" name="name" type="text" placeholder="Nhập vào họ tên không dấu">
+      <div class="name-error error"></div>
+      <input class="dob" type="text" placeholder="Nhập vào ngày tháng năm sinh">
+      <div class="dob-error error"></div>
+
+      <label for="save">
+        Ghi nhớ
+        <input type="checkbox" name="save-data" id="save">
+      </label>
+      <button type="submit">Tra cứu</button>
+
+
+    </form>
+
+    <ul class="numberTypes">
+      <li class="life-path"></li>
+      <li class="soul-urge"></li>
+      <li class="destiny"></li>
+      <li class="personality"></li>
+    </ul>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
